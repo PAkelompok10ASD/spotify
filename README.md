@@ -1,3 +1,5 @@
+# Dokumentasi
+
 Program ini adalah program yang digunakan untuk mengelola sebuah progream manajemen playlist lagu. Program ini menggunakan bahasa Python.
 
 Program ini membutuhkan beberapa library yang akan digunakan seperti os, json, math, pwinput, prettytable, dan time. Library os digunakan untuk membersihkan tampilan konsol, library json digunakan untuk membaca dan menulis file JSON, library pwinput digunakan untuk mengamankan password, library prettytable digunakan untuk membuat tabel di konsol, dan library time digunakan untuk mengatur waktu delay.
