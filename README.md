@@ -16,4 +16,4 @@ Jika pengguna memilih Registrasi, maka pengguna diminta untuk memasukkan usernam
 
 Setelah berhasil login, pengguna dapat melakukan beberapa operasi seperti menambahkan, menghapus, atau melihat lagu pada playlist menggunakan konsep CRUD (Create, Read, Update, Delete) dan dilakukan menggunakan metode double linked list. Data lagu yang dimasukkan akan disimpan dalam sebuah tabel menggunakan modul prettytable.
 
-Program ini juga menggunakan modul pwinput untuk menyembunyikan password yang dimasukkan oleh pengguna. Program ini juga menggunakan modul time untuk membuat animasi loading iklan saat pengguna tidak premium memilih menu didalam program.
+Program ini juga menggunakan modul pwinput untuk menyembunyikan password yang dimasukkan oleh pengguna. Program ini juga menggunakan modul time untuk membuat animasi loading iklan saat pengguna tidak premium memilih menu didalam program. 
