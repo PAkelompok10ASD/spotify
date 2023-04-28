@@ -1,3 +1,6 @@
+import time
+from datetime import datetime
+
 def struk():
     waktu = datetime.now()
     time = waktu.strftime("%H:%M:%S")
