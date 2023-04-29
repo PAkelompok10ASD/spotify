@@ -12,7 +12,7 @@
 
 # Menu Penguna 
 ![image](https://user-images.githubusercontent.com/121924124/235309722-9df459ed-a053-4d0e-8f02-bd0bad53b189.png)
-> Setelah login, pengguna akan ditampilkan menu dari pengguna itu sendiri yakni Tambah Lagu Didalam Playlist, Lihat Lagu Didalam Playlist, Hapus Lagu Didalam Playlist, Sorting Lagu, Searching Lagu, Daftar Premium dan Exit. 
+
 
 # Tambah Lagu 
 ![image](https://user-images.githubusercontent.com/121924124/235309868-bf411041-0141-43a3-9556-6f0545f67474.png)
