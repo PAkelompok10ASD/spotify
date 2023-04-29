@@ -1,14 +1,34 @@
 # PROJECT AKHIR  PROGRAM SPOTIFY
 -----------------------------------------------------------------------------------------------------------
 
-### DESKRIPSI PROGRAM
+## DESKRIPSI PROGRAM
 > Program Spotify ini dibuat dengan tujuan untuk membantu pengguna dalam mengelola playlist lagu dan memudahkan pengguna dalam menambahkan lagu-lagu baik itu populer maupun tidak ke dalam playlist sesuai dengan selera musik mereka. Pengguna dapat melihat daftar lagu yang telah ditambahkan ke dalam playlist dan menghapus judul lagu yang tidak diinginkan dari playlist tersebut. Program ini juga menyediakan fitur pencarian lagu dan pengurutan komponen lagu berdasarkan abjad atau angka. Dengan begitu, diharapkan program ini dapat memberikan kemudahan bagi pengguna dalam mengelola playlist lagu mereka. 
 
 > Program ini juga dibuat menggunakan Bahasa Pemrograman yakni Python serta mengimplementasikan struktur data Linked List. Program ini juga menggunakan database localhost untuk menyimpan data akun pengguna dan data lagu dari program Spotify itu sendiri. Dengan adanya database ini, pengguna dapat dengan mudah mengakses playlist dan informasi akun mereka tanpa kehilangan data.
 
 
-### STRUKTUR PROJECT
-> 1. Folder Controller, berisi file-file controller yang akan mengatur alur program serta mengambil data dari model dan menampilkan ke view.                                   - File Controller Account, sebagai file controller yang berisi logika untuk manajemen akun mahasiswa dan staff, seperti registrasi, login, dan profil user.
+## STRUKTUR PROJECT
+### Library
+1. Import Time, yaitu modul yang menyediakan berbagai fungsi yang berhubungan dengan waktu
+2. Import Os, yaitu modul yang menyediakan cara portebel untuk menggunakan fungsionalitas yang bergantung pada sistem operasi
+3. From PrettyTable import PrettyTable, yaitu pustaka atau library dakam Python yang digunakan untuk membuat atau mengeluarkan data dalam bentuk tabel
+4. Import datetime, yakni modul untuk memanipulasi tanggal dan waktu
+5. Import math, modul yang menyediakan fungsi-fungsi matematika dasar untuk digunakan pada operasi matematika sederhana
+6. Import pwinput, yaitu modul python yang menampilkan sejenis tanda bintang *** untuk input kata sandi.
+
+### LINKED LIST
+- Class 1
+- Class 2
+Fungsi dalam Class 1
+Fungsi dalam Class 2
+
+### FUNGSI 
+- def 1
+- def 2
+- def3 , dst
+
+
+> 2. Folder Controller, berisi file-file controller yang akan mengatur alur program serta mengambil data dari model dan menampilkan ke view.                                   - File Controller Account, sebagai file controller yang berisi logika untuk manajemen akun mahasiswa dan staff, seperti registrasi, login, dan profil user.
         - File Controller Linked List, sebagai file controller yang berisi logika untuk manajemen data ruang kelas dalam bentuk linked list, dimana data dalam linked list diambil dari database.
         - File Controller User, sebagai file controller yang berisi logika untuk manajemen data mahasiswa dan staff seperti logika menambahkan peminjaman ruang.
 > 2. Folder Model, berisi file-file model yang berisi fungsi-fungsi untuk mengakses database dan memproses data.
