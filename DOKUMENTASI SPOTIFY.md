@@ -10,7 +10,7 @@
 ### A. LIBRARY
 1. Import Time, yaitu modul yang menyediakan berbagai fungsi yang berhubungan dengan waktu dan tanggal
 2. Import Os, yaitu modul yang dapat digunakan untuk berinteraksi dengan sistem operasi dan melakukan operasi pada file dan folder.
-3. Import pwinput, yaitu modul python yang menampilkan sejenis tanda bintang * untuk input kata sandi.
+3. Import pwinput, yaitu modul python yang menampilkan sejenis tanda bintang *** untuk input kata sandi.
 4. From PrettyTable import PrettyTable, yaitu pustaka atau library dalam Python yang digunakan untuk membuat atau mengeluarkan data dalam bentuk tabel
 5. From datetime import datetime, yakni modul yang dipanggil jika anda membutuhkan segala operasi yang berhubungan dengan waktu/untuk memanipulasi tanggal dan waktu
 6. import mysql.connector, yaitu modul untuk menghubungkan dan berinteraksi dengan database MySQL dari program Python. Dengan mengimpor modul ini, kita bisa menggunakan fungsi-fungsi dan objek-objek yang tersedia di dalamnya untuk melakukan operasi-operasi pada database MySQL
@@ -55,12 +55,9 @@ Beberapa fitur yang terdapat pada program ini, yaitu :
 - Mencetak bukti pembayaran
 
 ## FUNGSIONALITAS 
-> Pengguna dapat melakukan registrasi akun terlebih dahulu untuk memasuki program dengan cara memasukkan username dan juga password dan otomatis akan tersimpan di database
-> Pengguna dapat login menggunakan akun yang telah diregistrasi sebelumnya dan otomatis akan tersimpan di database
-> Pengguna juga dapat keluar dari program melalui pilihan Exit.
-> Terdapat 2 jenis pengguna yakni Premium dan Non Premium :
+> Pengguna dapat melakukan registrasi akun terlebih dahulu untuk memasuki program dengan cara memasukkan username dan juga password dan otomatis akan tersimpan di database, Lalu, Pengguna dapat login menggunakan akun yang telah diregistrasi sebelumnya dan otomatis akan tersimpan di database, Pengguna juga dapat keluar dari program melalui pilihan Exit. Terdapat 2 jenis pengguna yakni Premium dan Non Premium :
 
-> 1. Pengguna Premium :
+**1. Pengguna Premium :**
 - Menambah : Pengguna dapat menambah judul, nama artis dan tahun rilis lagu kedalam playlist dengan total lagu yakni > 5, tidak ada batasan sama sekali.
 - Melihat : Pengguna dapat melihat judul, nama artis dan tahun rilis lagu yang ada didalam playlist yang telah ditambahkan sebelumnya.
 - Menghapus : Pengguna dapat menghapus judul lagu yang ada didalam playlist yang telah dibuat
@@ -69,7 +66,7 @@ Beberapa fitur yang terdapat pada program ini, yaitu :
 - Mendaftar : Pengguna dapat melakukan pendaftaran untuk menjadi Premium dengan pilihan paket yang tersedia.
 - Mencetak : Setelah melakukan pendaftaran dan memilih paket premium yang diinginkan, maka pengguna dapat langsung mencetak bukti pembayaran (invoice) sebagai bukti bahwa pengguna telah beralih dari Non Premium ke Premium. (Semuanya otomatis akan tersimpan di database).
 
-> 2. Pengguna Non Premium
+**2. Pengguna Non Premium**
 - Menambah : Pengguna dapat menambah judul, nama artis dan tahun rilis lagu kedalam playlist dengan total maksimal 5 lagu, tidak boleh lebih dari itu.
 - Melihat : Pengguna dapat melihat judul, nama artis dan tahun rilis lagu yang ada didalam playlist yang telah ditambahkan sebelumnya.
 - Menghapus : Pengguna dapat menghapus judul lagu yang ada didalam playlist yang telah dibuat
