@@ -77,3 +77,56 @@ Beberapa fitur yang terdapat pada program ini, yaitu :
 - Mencari : Pengguna dapat melakukan pencarian judul lagu dimana saat judul lagu tersebut telah tertulis, akan muncul tulisan yang berisi judul lagu beserta nama artis dari lagu tersebut.
 - Mendaftar : Pengguna dapat melakukan pendaftaran untuk menjadi Premium dengan pilihan paket yang tersedia.
 - Mencetak : Setelah melakukan pendaftaran dan memilih paket premium yang diinginkan, maka pengguna dapat langsung mencetak bukti pembayaran (invoice) sebagai bukti bahwa pengguna telah beralih dari Non Premium ke Premium. (Semuanya otomatis akan tersimpan di database).
+
+
+###Cara Penggunaan
+# Menu Awal
+> Pada saat Program pertama kali dijalankan maka akan muncul tampilan/menu awal yang berisi 3 pilihan yakni Registrasi Akun, Login dan Exit.
+
+# Registrasi Pengguna
+> Jika pengguna belum mempunyai akun, maka pengguna dapat memilih opsi 1 yakni Registrasi Akun, lalu setelah itu pengguna akan langsung diminta memasukkan username dan juga password. 
+
+# Login Pengguna
+> Pada opsi 2 yakni pengguna akan diminta memasukkan username dan juga password terutama yang telah diregistrasi sebelumnya jika pengguna tersebut belum memiliki akun.
+
+# Menu Penguna 
+> Setelah login, pengguna akan ditampilkan menu dari pengguna itu sendiri yakni Tambah Lagu Didalam Playlist, Lihat Lagu Didalam Playlist, Hapus Lagu Didalam Playlist, Sorting Lagu, Searching Lagu, Daftar Premium dan Exit. 
+
+# Tambah Lagu 
+> Pada menu tambah lagu ini, pengguna diminta memasukkan Judul Lagu, Nama Artis, dan Tahun Rilis lalu dapat dilihat pada gambar diatas, bila pengguna ingin menambahkan lagu lagi maka ketik "y" dan akan dikembalikan pada menu ini lagi, namun bila tidak maka ketik "t" dan akan dikembalikan pada menu pengguna.
+
+# Lihat Lagu
+> Pada menu Lihat Lagu ini, pengguna dapat melihat Judul Lagu, Nama Artis dan Tahun Rilis yang telah ditambahkan sebelumnya
+
+# Hapus Lagu
+> Pada menu Hapus Lagu ini, pengguna dapat menghapus judul lagu yang telah di tambahkan sebelumnya, otomatis nama artis dan juga tahun rilis akan ikut terhapus juga.
+
+# Sorting Lagu 
+> 1. Berdasarkan Judul 
+> Data yang ditampilkan akan terurut berdasarkan Judul Lagu
+
+> 2. Berdasarkan Artis
+> Data yang ditampilkan akan terurut berdasarkan Nama Artis
+
+> 3. Berdasarkan Tahun Rilis
+> Data yang ditampilkan akan terurut berdasarkan Tahun Rilis
+
+
+# Searching Lagu
+> Pada menu Searching Lagu ini, pengguna dapat mengetikkan judul lagu yang ingin dicari, lalu akan muncul tampilan seperti pada gambar diatas
+
+# Daftar Premium
+> Langkah 1 : Pada menu Daftar Premium ini, pengguna akan dihadapkan dengan 2 pilihan yakni yang pertama ada Pembayaran Emoney dan yang kedua ada pilihan Back. Dimana Pembayaran Emoney merupakan metode pembayaran yang digunakan untuk membeli paket premium.
+
+> Langkah 2 : Pada tampilan ini, akan muncul 2 pilihan paket premium, pengguna akan diminta memilih sesuai keinginan masing-masing.
+
+> Langkah 3 : Pada tampilan ini, ketika pengguna mengetikkan angka 1 maka langsung muncul tulisan "Masukkan Nominal Pembayaran" dan pengguna bisa mengetikkan nominal bayar sesuai dengan pilihan paket yang diinginkan dan otomatis pengguna telah beralih dari status Non Premium ke Premium.
+
+# Cetak Bukti Pembayaran
+> Pada tampilan ini terlihat bahwa Bukti Pembayaran telah tercetak dan terdiri dari beberapa komponen bisa langsung dilihat pada gambar, yang menandakan bahwa paket premium yang diinginkan telah berhasil dibeli
+
+# Keluar
+> Ketika pengguna mengetik angka 7 yakni Keluar maka program otomatis akan beralih ke menu utama sebelumnya tadi
+
+# Exit 
+> Ketika pengguna mengetik angka 3 yakni Exit maka program otomatis akan berhenti.
