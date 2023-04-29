@@ -79,7 +79,7 @@ Beberapa fitur yang terdapat pada program ini, yaitu :
 - Mencetak : Setelah melakukan pendaftaran dan memilih paket premium yang diinginkan, maka pengguna dapat langsung mencetak bukti pembayaran (invoice) sebagai bukti bahwa pengguna telah beralih dari Non Premium ke Premium. (Semuanya otomatis akan tersimpan di database).
 
 
-###Cara Penggunaan
+### Cara Penggunaan
 # Menu Awal
 > Pada saat Program pertama kali dijalankan maka akan muncul tampilan/menu awal yang berisi 3 pilihan yakni Registrasi Akun, Login dan Exit.
 
