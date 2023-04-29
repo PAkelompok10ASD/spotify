@@ -5,16 +5,37 @@
 > Program Spotify ini dibuat dengan tujuan untuk membantu pengguna dalam mengelola playlist lagu dan memudahkan pengguna dalam menambahkan lagu-lagu baik itu populer maupun tidak ke dalam playlist sesuai dengan selera musik mereka. Pengguna dapat melihat daftar lagu yang telah ditambahkan ke dalam playlist dan menghapus judul lagu yang tidak diinginkan dari playlist tersebut. Program ini juga menyediakan fitur pencarian lagu dan pengurutan komponen lagu berdasarkan abjad atau angka. Dengan begitu, diharapkan program ini dapat memberikan kemudahan bagi pengguna dalam mengelola playlist lagu mereka. 
 
 > Program ini juga dibuat menggunakan Bahasa Pemrograman yakni Python serta mengimplementasikan struktur data Linked List. Program ini juga menggunakan database localhost untuk menyimpan data akun pengguna dan data lagu dari program Spotify itu sendiri. Dengan adanya database ini, pengguna dapat dengan mudah mengakses playlist dan informasi akun mereka tanpa kehilangan data.
+-----------------------------------------------------------------------------------------------------------
 
 ### STRUKTUR PROJECT
-> 
+> 1. Folder Controller, berisi file-file controller yang akan mengatur alur program serta mengambil data dari model dan menampilkan ke view.                                   - File Controller Account, sebagai file controller yang berisi logika untuk manajemen akun mahasiswa dan staff, seperti registrasi, login, dan profil user.
+        - File Controller Linked List, sebagai file controller yang berisi logika untuk manajemen data ruang kelas dalam bentuk linked list, dimana data dalam linked list diambil dari database.
+        - File Controller User, sebagai file controller yang berisi logika untuk manajemen data mahasiswa dan staff seperti logika menambahkan peminjaman ruang.
+> 2. Folder Model, berisi file-file model yang berisi fungsi-fungsi untuk mengakses database dan memproses data.
+        - File Database, sebagai file yang berisi class untuk menghubungkan python dan database.
+        - File Ruang, sebagai file yang berisi definisi class Ruang yang digunakan untuk merepresentasikan sebuah node pada struktur data Linked List.
+> 3. Folder View, berisi file-file view yang berisi tampilan antarmuka aplikasi yang akan dilihat oleh pengguna.
+        - File App, sebagai halaman untuk menampilkan informasi dan melakukan peminjaman ruang kelas oleh pengguna yang belum terdaftar sebagai staff atau mahasiswa.
+        - File Mahasiswa, sebagai halaman untuk menampilkan informasi dan melakukan peminjaman ruang kelas oleh mahasiswa.
+        - File Staff, sebagai halaman untuk menampilkan informasi dan daftar peminjaman ruang kelas oleh staff.
+> 4. File main, sebagai file utama yang berfungsi untuk menjalankan program.
 
 ### FITUR
->
+Pada program ini terdapat library yang digunakan, diantaranya adalah PrettyTable, Datetime, time, PyMongo, os dan random.
+>  1. PrettyTable merupakan library atau pustaka dalam python yang digunakan untuk membuat / mengeluarkan data dalam bentuk tabel.
+>  2. Datetime adalah sebuah library atau modul yang dipanggil jika anda membutuhkan segala operasi yang berhubungan demi waktu.
+>  3. Modul time adalah modul yang menyediakan fungsi-fungsi untuk mengelola waktu dan tanggal. 
+>  4. PyMongo berisi alat untuk bekerja dengan MongoDB, dan merupakan cara yang disarankan untuk bekerja dengan MongoDB dari Python.
+     Untuk menjalankan PyMongo sendiri, hal yang harus dilakukan adalah mengakses MongoDB ataupun menginstall MongoDB. 
+     Selanjutnya user dapat memverifikasi apakah instalasi telah selesai dengan sukses, kita akan terhubung ke server database MongoDB menggunakan alat mongo dan melihat status koneksi melalui MongoDB. 
+     Terdapat opsi authorization yang memungkinkan Role-Based Access Control (RBAC) yang mengatur akses pengguna ke sumber daya dan operasi database. 
+     Jika opsi ini dinonaktifkan, setiap user akan memiliki akses ke semua database dan melakukan tindakan apa pun.
+>  5. Modul os dapat digunakan untuk berinteraksi dengan sistem operasi dan melakukan operasi pada file dan direktori.
+>  6. Modul random pada adalah modul yang menyediakan fungsi-fungsi untuk menghasilkan bilangan acak. 
 
 ### FUNGSIONALITAS 
 >
-
+### CARA PENGGUNAAN
 Program ini adalah program yang digunakan untuk mengelola sebuah progream manajemen playlist lagu. Program ini menggunakan bahasa Python.
 
 Program ini membutuhkan beberapa library yang akan digunakan seperti os, json, math, pwinput, prettytable, dan time. Library os digunakan untuk membersihkan tampilan konsol, library json digunakan untuk membaca dan menulis file JSON, library pwinput digunakan untuk mengamankan password, library prettytable digunakan untuk membuat tabel di konsol, dan library time digunakan untuk mengatur waktu delay.
